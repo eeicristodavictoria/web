@@ -1,0 +1,71 @@
+/* PRODUCTION */
+body {
+	width: 712px;
+	padding: 20px 28px 0;
+}
+
+/* HEADER */
+header[role="masthead"] {
+	width: 712px;
+	margin-bottom: 20px;
+}
+
+/* NAV */
+nav {
+	position: absolute;
+	top: 70px;
+	left: auto;
+	right: 0;
+	width: 528px;
+	margin: 0;
+}
+nav ul { float: right; }
+nav li { display: inline-block; }
+nav a { display: inline; padding: 35px 15px 0 15px; }
+nav li a { background-position: 50% 0; }
+nav li a:hover { background-position: 50% 3px; }
+
+/* FEATURED */
+#featured { height: 510px; }
+#featured #slides { width: 712px; }
+#featured section img { left: -92px; }
+
+#featured #nav {
+	top: 445px;
+	width: 712px;
+}
+#featured #nav a {
+	width: 177px;
+	height: 25px;
+}
+#featured #nav h3 {
+	margin-bottom: 0;
+	font-size: .875em;
+}
+#featured #nav li { text-align: center; }
+#featured #nav li p { display: none; }
+
+/* MISC */
+#content header[role="page"] { padding-top: 0; }
+aside[role="social"] { display: none; }
+
+/* ICONS */
+header h1.contribute { background: url(../img/icon/sec/contribute.png) no-repeat 0 -101px; }
+header h1.tastemakers { background: url(../img/icon/sec/servicios-educativos.png) no-repeat 0 -99px; }
+header h1.blog { background: url(../img/icon/sec/instalaciones.png) no-repeat 0 -99px; }
+header h1.alist { background: url(../img/icon/sec/alist.png) no-repeat 0 -101px; }
+header h1.about { background: url(../img/icon/sec/about.png) no-repeat 0 -98px; }
+header h1.faqs { background: url(../img/icon/sec/faqs.png) no-repeat 0 -100px; }
+
+/* ----- PAGE HEADERS ----- */
+#content header[role="page"] h1,
+#content header[role="post"] h1 {
+	padding: 2% 0px 5% 0px;
+	line-height: 1em;
+	font-size: 2em;
+	display: inherit;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-style: italic;
+}

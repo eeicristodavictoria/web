@@ -1,0 +1,220 @@
+/* PRODUCTION */
+/* Estilos generales
+----------------------------------------------- */
+body {
+	width: 320px;
+	padding: 0;
+}
+
+video {
+	margin-top: 5%;
+}
+/* HEADER */
+
+header[role="masthead"] {
+	width: 100%;
+	margin: 69px 0 10px;
+}
+header h1#branding { margin: 0 auto; }
+
+/* NAV */
+nav {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 49px;
+	font-size: .75em;
+	border-bottom: 1px solid #E5E5E5;
+	-webkit-box-shadow: 0 1px 0 #F5F5F5;
+	   -moz-box-shadow: 0 1px 0 #F5F5F5;
+	        box-shadow: 0 1px 0 #F5F5F5;
+}
+.wf-inactive nav { font-size: .6875em; }
+nav li {
+	display: inline;
+	margin: 0;
+}
+nav a {
+	float: left;
+	margin: 0;
+	padding: 16px 8px 6px;		
+}
+nav li#t-tastemakers a, 
+nav li#t-blog a, 
+nav li#t-vendors a, 
+nav li#t-contribute a, 
+nav li#t-about a {
+	background-image: none;
+}
+
+/* --- CONTENT --- */
+#content { width: 100%; }
+
+/* FEATURED */
+#featured { 
+	/* height: 310px; */
+	height: 10%;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+}
+
+#featured #slides { 
+	width: 100%;
+	font-size: .75em;
+}
+
+#featured section {
+	position: relative;
+	width: 100%;
+}
+
+#featured section img {
+	left: -80px;
+	max-width: 500px;
+}
+
+#featured section h1,
+#featured section h2,
+#featured section.alt h1,
+#featured section.alt h2 {
+	left: auto;
+	right: auto;
+	width: 300px;
+	line-height: 1.2em;
+}
+#featured section h1 {
+	top: 214px;
+	padding: 10px 10px;
+	background: rgba(255,255,255,.8);
+	color: #222;
+	font-size: 1.125em;
+}
+#featured section h2 {
+	top: 248px;
+	padding: 9px 10px 11px;
+	font-size: .875em;
+}
+#featured section .credit {
+	top: 286px;
+	right: 575px;
+	background: rgb(255,255,255);
+}
+#featured section .credit:before { content: '* '; }
+
+#featured #slide-1 {
+	font-size: 1.2em;
+	padding-right: 12%;
+}
+
+
+#featured #nav { display: none; }
+
+/* NEWSLETTER */
+#newsletter { 
+	width: 100%;
+	height: 120px; 
+	background-position: 15px 14px;
+margin: 0 auto 20px;
+	
+}
+#newsletter p {
+	width: auto;
+	padding: 14px 15px 0 63px;
+	font-size: .6875em;
+}
+.no-js #newsletter p { padding-bottom: 0; }
+
+#newsletter form { 
+	margin-top: 15px;
+	padding-left: 15px; 
+}
+
+/* BLOG RECENT */
+#recent {
+	width: 280px;
+	margin: 0 auto 20px;
+}
+#recent article {
+	width: 280px;
+	margin-right: 0px;
+}
+#recent article img { width: 258px; }
+
+/* MAIN */
+
+#content #main,
+#content header[role="page"],
+#content header[role="post"],
+#content aside[role="sub"] {
+	float: none;
+	width: 80%;
+	padding-right: 5%;
+	padding-left: 5%;	
+}
+#content header[role="page"] {
+	padding-top: 0;
+	background-position: 5% 8px; 
+}
+#content header[role="page"] p { width: 100%; }
+#content.gallery #main { width: 90%; }
+
+#content.gallery article {
+	width: 266px;
+	height: 480px;
+}
+/*
+#content.recipe article img { width: 266px; }
+*/
+.vendors article .button {
+	width: 100%;
+	font-size: .75em;
+}
+#content .right,
+#content.blog article .post-image {
+	float: left;
+	margin: 0 40px 20px 0;
+}
+#content aside input[type="search"] {
+	width: auto;
+}
+#content .img-wrap {
+	width: 100%;
+}
+/*
+#content .recipe .photo {
+	width: 100%;
+}
+*/
+/* MISC */
+aside[role="social"] { display: none; }
+
+/* FOOTER */
+footer[role="siteinfo"] {
+	border-top: 1px solid #E5E5E5;
+	-webkit-box-shadow: 0 -1px 0 #F5F5F5;
+	   -moz-box-shadow: 0 -1px 0 #F5F5F5;
+	        box-shadow: 0 -1px 0 #F5F5F5;
+}
+footer[role="siteinfo"] p {
+	padding-left: 10px;
+	line-height: 1.5em;
+	font-size: .625em;
+}
+footer[role="siteinfo"] .social { right: 5px; }
+
+/* ICONS */
+#content header h1.icon { padding-left: 0px; }
+
+/* ----- PAGE HEADERS ----- */
+#content header[role="page"] h1,
+#content header[role="post"] h1 {
+	padding: 2% 0px 5% 0px;
+	line-height: 1em;
+	font-size: 1em;
+	display: inherit;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-style: italic;
+}
+

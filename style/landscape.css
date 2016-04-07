@@ -1,0 +1,19 @@
+/* PRODUCTION */
+#content header[role="page"] p {
+	width: 100%;
+	line-height: 1.6em;
+	font-style: italic;
+	clear: left;
+}
+
+/* ----- PAGE HEADERS ----- */
+#content header[role="page"] h1,
+#content header[role="post"] h1 {
+	padding: 2% 0px 5% 0px;
+	line-height: 1em;
+	display: inherit;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-style: italic;
+}

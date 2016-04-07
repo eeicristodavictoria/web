@@ -1,0 +1,65 @@
+/* PRODUCTION */
+header h1#branding {
+	background-position: left bottom;
+	background-size: 120px auto;
+}
+/* SOCIAL ICONS */
+.social li.twitter a,
+.social li.facebook a,
+.social li.rss a {
+	background-position: 50% bottom; 
+	background-size: 32px auto;
+}
+/* PAGE ICONS */
+header h1.alist { 
+	background-position: -30px 11px; 
+	background-size: 72px;
+}
+header h1.blog,
+header h1.about { 
+	background-position: -30px 13px; 
+	background-size: 72px;
+}
+header h1.tastemakers,
+header h1.contribute,
+header h1.faqs { 
+	background-position: -23px 12px; 
+	background-size: 72px;
+}
+/* BLOG ICONS */
+#content.post .comments,
+#content.post .tags {
+	background-position: -8px 10px; 
+	background-size: 24px auto;
+}
+#content #main .yield,
+#content #main .duration {
+	background-position: -10px 5px; 
+	background-size: 26px auto;
+}
+#content aside .rss a {
+	background-position: -8px 4px; 
+	background-size: 26px auto;
+}
+/* RECIPE ICONS */
+#content.gallery .url a {
+	background-position: -1px 6px;
+	background-size: 26px auto;
+}
+/*
+#content.recipe #main article h2,
+#content.recipe #main article h2.guy {
+	background-position: -1px 5px;
+	background-size: 26px auto;
+}
+*/
+/* MARKETPLACE ICONS */
+.vendors article p.note { 
+	background-position: -11px 3px;
+	background-size: 26px;
+}
+/* MISC */
+#newsletter {
+	background-image: url(../img/icon-mailinglist-32-2x.png);
+	background-size: 32px auto;
+}

@@ -1,0 +1,130 @@
+/* PRODUCTION */
+body {
+	width: 1080px;
+}
+
+#content {
+	float: right;
+	width: 896px;
+}
+
+#content header[role="page"] p {
+	width: 100%;
+	line-height: 1.6em;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+#content #main {
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+}
+
+#content #main p {
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	font-size: 150%;
+}
+
+#content #main article p {
+	font-size: 100%;
+}
+
+#content.blog.post.multiple #main article p {
+	font-size: 1.25em;
+}
+
+/* FEATURED */
+#featured {
+	height: 560px;
+}
+
+#featured #slides {
+	width: 896px;
+}
+
+#featured section img {
+	left: 0;
+}
+
+#featured section.alt h1, #featured section.alt h2 {
+	right: 0;
+}
+
+#featured section .credit {
+	right: 10px;
+}
+
+/* FEATURED NAV */
+#featured #nav {
+	top: 445px;
+	width: 896px;
+}
+
+#featured #nav a {
+	width: 191px;
+	height: 60px;
+	padding: 25px 12px 0 20px;
+}
+
+#featured #nav h3 {
+	font-size: 1.125em;
+}
+
+#featured #nav li {
+	text-align: left;
+}
+
+#featured #nav li p {
+	display: inline;
+}
+
+/* NEWSLETTER */
+#newsletter input#email {
+	width: 260px;
+}
+
+/* RECENT */
+#recent article {
+	width: 206px;
+}
+
+#recent article img {
+	width: 185px;
+}
+
+/* RECIPE GALLERY */
+#content.gallery article {
+	width: 184px;
+	height: 430px;
+}
+
+#content.gallery article:nth-child(2n+2) {
+	margin-right: 24px;
+}
+
+#content.gallery #main article:nth-child(4n+4) {
+	margin-right: 0;
+}
+
+/* MISC */
+.vendors article aside {
+	width: 60%;
+}
+
+#content aside input[type="search"] {
+	width: auto;
+}
+
+/* ----- PAGE HEADERS ----- */
+#content header[role="page"] h1, #content header[role="post"] h1 {
+	padding: 2% 0px 5% 0px;
+	line-height: 1em;
+	font-size: 3em;
+	display: inherit;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-style: italic;
+}

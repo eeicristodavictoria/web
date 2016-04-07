@@ -1,0 +1,98 @@
+/* PRODUCTION */
+body {
+	width: 480px;
+	padding: 0;
+}
+
+/* HEADER */
+header[role="masthead"] {
+	width: 100%;
+	margin: 20px 0;
+}
+header h1#branding { margin-left: 20px; }
+
+/* NAV */
+nav {
+	top: 65px;
+	left: auto;
+	right: 25px;
+	width: 315px;
+	height: 20px;
+	font-size: .75em;
+	background: transparent;
+	border-bottom: none;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+}
+.wf-inactive nav { right: 15px; }
+
+nav ul {
+	position: absolute;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0;
+}
+nav a {
+	float: left;
+	margin: 0 0 0 4px;
+	padding: 5px 5px 0 5px;		
+}
+
+
+/* FOR ACTIVE PAGE */
+#tastemakers-page li#t-recipes a, 
+#blog-page li#t-blog a, 
+#vendors-page li#t-marketplace a, 
+#contribute-page li#t-contribute a, 
+#about-page li#t-about a {
+	border-bottom: 2px solid #F5F5F5;
+}
+
+/* --- CONTENT --- */
+
+/* FEATURED */
+#featured section img { left: 0; }
+#featured section h1,
+#featured section h2,
+#featured section.alt h1,
+#featured section.alt h2 { 
+	width: 460px;
+}
+#featured section .credit { right: 415px; }
+
+/* NEWSLETTER */
+#newsletter { height: 105px; }
+#newsletter form input#email { width: 300px; }
+
+/* BLOG RECENT */
+#recent { width: 456px; }
+
+#recent article {
+	width: 216px;
+	margin-right: 24px;
+}
+#recent article img { width: 195px; }
+#recent article:nth-child(2) { margin-right: 0; }
+
+/* MAIN */
+#content.gallery article { 
+	width: 182px;
+	height: 430px;
+	margin-right: 24px;
+}
+#content .right,
+#content.blog article .post-image {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.vendors article .button { width: auto; }
+
+/* ----- PAGE HEADERS ----- */
+#content header[role="page"] h1,
+#content header[role="post"] h1 {
+	font-size: 1.2em;
+}
+
